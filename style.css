@@ -1,0 +1,415 @@
+body{
+    background-color: #B00820;
+}
+    
+    
+    
+p{
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-bottom: ;
+    margin-left: 50%;
+    padding: 0%;
+    font-size: 1em;
+    color: white;
+    font-family: Josefin Slab;
+    width: ;
+    line-height:1em ;
+    text-align: right;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 3em;
+    font-size: 1em;
+}
+
+#cover{
+    margin-left: 5.75em;
+    display: none;
+}
+
+#frontispiece{
+    margin-left: 5.75em;
+    display: none;
+}
+
+img{
+    position: relative;
+    max-width: 30vw;
+    margin-left: 10%;
+}
+
+td{
+    color: white;
+    font-size: 1em;
+    margin-right: 40%;
+    display: none;
+}
+h1{
+    font-size: 2em;
+    margin-top: 3em;
+    margin-left: 2em;
+    color: white;
+    margin-right: 55%;
+    line-height: 1.25em;
+}
+
+h2{
+    color: white;
+    font-size: 1.5em;
+    margin-left: 0%;
+    margin-top: 75px;
+    margin-right: 5%;
+    text-align: right;
+}
+
+h3{
+    color: white;
+    font-size: 1.5em;
+    line-height: 0.25em;
+    margin-left: 0%;
+    margin-bottom: 75px;
+    margin-right: 5%;
+    text-align: right;
+}
+
+h4{
+    color: white;
+    font-size: 1em;
+    display: none;
+}
+
+.caption{
+    color:#D7D852;
+    margin-left: 10%;
+}
+
+.centered{
+    color: white;
+    display: none;
+}
+
+.smallercentered{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+small{
+    color: white;
+    margin-top: 25px;
+    font-size: 1em;
+    line-height: 3em;
+}
+
+.booktitle{
+    color: white;
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-left: 5%;
+}
+
+.bookauthor{
+    color: white;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-left:5%;
+}
+
+.smallcentered{
+    color: white;
+    margin-left: 5%;
+}
+
+li{
+    color:#D7D852 ;
+    margin-top: 50px;
+    margin-left: 0%;
+    margin-right: 55%;
+    margin-bottom: 20px;
+    line-height: 1.25em;
+}
+
+
+/*-----------SMART PHONES ----------*/
+@media only screen and (max-width:800px){
+    p{
+        margin-top: 6%;
+        margin-right: 20%;
+        margin-bottom: 0%;
+        margin-left: 20%;
+        padding: 0;       
+        font-size: ;
+        color: #1D1E22;
+        font-family: Josefin Slab;
+        width: ;
+        line-height: ;
+        text-align: center;
+    }
+    body{
+        background-color:white;
+    }
+    
+    a{
+        color:#FA953A;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 24%;
+        font-size: 0.75em;
+    }
+    
+    img{
+        position: relative;
+        max-width: 10vw;
+        margin-left: 45%;
+    }
+    
+    td{
+        color: #FA953A;
+        font-size: 0.5em;
+        margin-left: 40%;
+        display: none;
+    }
+    h1{
+        font-size: 1em;
+        color: #FA953A;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 3em;
+        line-height: 1.25em;
+        text-align: center;
+    }
+    
+    h2{
+        color:black;
+        font-size: 1.5em;
+        margin-top: 150px;
+        margin-left: 2%;
+        text-align: left;
+    }
+    
+    h3{
+        color: #FA953A;
+        font-size: 1.5em;
+        line-height: 1em;
+        margin-left: 2%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    
+    h4{
+        color: #FA953A;
+        font-size: 1em;
+        margin-left: 40%;
+        display: none;
+    }
+    
+    .centered{
+        color: #FDC044;
+        display: none;
+    }
+    
+    .caption{
+        color:#FA953A;
+        margin-right: 45%;
+        font-size: 0.5em;
+        margin-left: 45%;
+    }
+    
+    .smallercentered{
+        color: #FDC044;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: none;
+    }
+    
+    small{
+        color: #4078DE;
+        margin-top: 25px;
+        font-size: 1em;
+        line-height: 3em;
+    }
+    
+    .booktitle{
+        color: #4078DE;
+        font-size: 1em;
+        margin-bottom: 1em;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    
+    .bookauthor{
+        color: #4078DE;
+        margin-bottom: 40em;
+        margin-top: 2em;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    
+    .smallcentered{
+        color: #FDC044;
+        margin-left: 1em;
+        display: none;
+    }
+    
+    li{
+        color:#FA953A;
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px;
+        line-height: 1.25em;
+    }
+    
+    #cover{
+        margin-left: 5.75em;
+        display: none;
+    }
+
+    #frontispiece{
+        margin-left: 5.75em;
+        display: none;
+    }
+}
+
+
+
+    /*----------TABLETS----------*/
+@media only screen and (min-width:800px) and (max-width:1280px){
+p{
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-bottom: 0%;
+    margin-left: 40%;
+    padding: 0;
+    font-size: ;
+    color: white;
+    font-family: Josefin Slab;
+    line-height: 15px;
+    text-align: left;
+}
+
+body{
+    background-color: #182237;
+}
+
+a{
+    color:#FDC044;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 0.75em;
+}
+
+img{
+    position: relative;
+    max-width: 15vw;
+    margin-left: 0%;
+}
+
+td{
+    color: #FDC044;
+    font-size: 0.5em;
+    margin-left: 40%;
+    display: none;
+}
+h1{
+    font-size: 1em;
+    color: #FDC044;
+    margin-right: 60%;
+    margin-top: 3em;
+    line-height: 1.25em;
+}
+
+h2{
+    color: #FDC044;
+    font-size: 1.5em;
+    margin-top: 75px;
+    margin-left: 40%;
+    text-align: left;
+}
+
+h3{
+    color: #FDC044;
+    font-size: 1.5em;
+    margin-left: 40%;
+    margin-bottom: 75px;
+    text-align: left;
+}
+
+h4{
+    color: #FDC044;
+    font-size: 1em;
+    margin-left: 40%;
+}
+
+.centered{
+    color: #FDC044;
+    display: none;
+}
+
+.caption{
+    color:#FDC044;
+    margin-right: 60%;
+    margin-left: 0%
+}
+
+.smallercentered{
+    color: #FDC044;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+small{
+    color: #FDC044;
+    margin-top: 25px;
+    font-size: 1em;
+    line-height: 3em;
+}
+
+.booktitle{
+    color: #FDC044;
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-left: 5.75em;
+}
+
+.bookauthor{
+    color: #FDC044;
+    margin-bottom: 10em;
+    margin-top: 1em;
+}
+
+.smallcentered{
+    color: #FDC044;
+    margin-left: 5.75em;
+    margin-right: 60%;
+}
+
+li{
+    color:#FDC044;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    line-height: 1.25em;
+}
+
+#cover{
+    margin-left: 5.75em;
+    display: none;
+}
+
+#frontispiece{
+    margin-left: 5.75em;
+    display: none;
+}
+
+}
